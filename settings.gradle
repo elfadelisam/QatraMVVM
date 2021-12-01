@@ -1,0 +1,2 @@
+rootProject.name='Qatra'
+include ':app'

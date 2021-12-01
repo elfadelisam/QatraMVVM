@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PolicyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• هذا التطبيق مجاني ويقدم كافة خدماته بالمجان ولجميع المستخدمين ولا يحق لأي جهة عامة أو خاصة استغلاله مدياً بأي صورة كانت."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	يجب على المتبرعين إدخال بياناتهم بشكل صحيح عند التسجيل، وكذلك يجب عدم استخدام أي معلومات مزورة أو أسماء مستعارة."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	يمنع على من يبحث عن متبرعين استخدام البيانات الخاصة بهم مثل (الأسماء، أرقام الهواتف وغيرها) بشكل غير قانوني وإحداث أي ضرر أو ازعاج لهم."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	يجب ألا يقل عمر المسجلين كمتبرعين بالدم عن 16 سنة ولا يزيد عن 60 سنة."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• لا يحق لأي جهة عامة أو خاصة استغلال المعلومات الموجودة في هذا التطبيق بأي صورة من الصور في غير الغرض المخصصة له إلا بعد الحصول على موافقة مكتوبة من إدارة التطبيق أو الجهات الراعية له."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	لا تتحمل إدارة التطبيق أو الجهات الراعية له أي مسئولية ناتجة عن أخطاء أو استخدام التطبيق مع التزامها ببيان كل المعلومات التي تملكها للجهات المختصة إذا دعت الحاجة لذلك."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	يحق لإدارة التطبيق تجميع أي معلومات مثل عناوين IP والمنطقة الزمنية والجغرافية للمستخدمين."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	يحق لإدارة التطبيق مقاضاة أي شخص أو جهة عامة أو خاصة لاستخدامه/ها بيانات التطبيق بشكل غير قانوني ومخالفاً لهذه الشروط وذلك وفقاً للقانون السوداني والمحاكم السودانية."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• يحق لإدارة التطبيق تعديل شروط الاستخدام في أي وقت على أن تقوم بنشرها عبر التطبيق مع بيان وقت وتاريخ هذا التعديل. "
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</ScrollView>

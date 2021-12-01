@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.qatramvvm.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_donors"
+        android:name="com.example.qatramvvm.ui.donors.DonorsFragment"
+        android:label="@string/title_donors"
+        tools:layout="@layout/fragment_donors" />
+    <fragment
+        android:id="@+id/nav_cases"
+        android:name="com.example.qatramvvm.ui.cases.CasesFragment"
+        android:label="@string/title_requests"
+        tools:layout="@layout/fragment_cases" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.qatramvvm.ContactFragment"
+        android:label="@string/title_contact"
+        tools:layout="@layout/fragment_contact" />
+    <activity
+        android:id="@+id/about"
+        android:name="com.example.qatramvvm.AboutActivity"
+        android:label="activity_about"
+        tools:layout="@layout/activity_about" />
+    <activity
+        android:id="@+id/add_case"
+        android:name="com.example.qatramvvm.Add_caseActivity"
+        android:label="activity_add_case"
+        tools:layout="@layout/activity_add_case" />
+    <activity
+        android:id="@+id/add_donor"
+        android:name="com.example.qatramvvm.Add_donorActivity"
+        android:label="activity_add_donor"
+        tools:layout="@layout/activity_add_donor" />
+    <activity
+        android:id="@+id/guidelines"
+        android:name="com.example.qatramvvm.EducateActivity"
+        android:label="@string/guidelines"
+        tools:layout="@layout/activity_educate" />
+    <activity
+        android:id="@+id/donor_details"
+        android:name="com.example.qatramvvm.DetailsDonors"
+        android:label="donors_details"
+        tools:layout="@layout/donors_details" />
+    <activity
+        android:id="@+id/case_details"
+        android:name="com.example.qatramvvm.DetailsCases"
+        android:label="cases_details"
+        tools:layout="@layout/cases_details" />
+    <activity
+        android:id="@+id/update_profile"
+        android:name="com.example.qatramvvm.Update_profileActivity"
+        android:label="update_profile"
+        tools:layout="@layout/activity_update_profile" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.qatramvvm.LoginActivity"
+        android:label="login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registration"
+        android:name="com.example.qatramvvm.RegistrationActivity"
+        android:label="registration"
+        tools:layout="@layout/activity_registration" />
+    <activity
+        android:id="@+id/change_password"
+        android:name="com.example.qatramvvm.Change_passwordActivity"
+        android:label="@string/change_password"
+        tools:layout="@layout/activity_change_password"/>
+    <activity
+        android:id="@+id/my_requests"
+        android:name="com.example.qatramvvm.MyRequestsActivity"
+        android:label="@string/my_requests"
+        tools:layout="@layout/activity_my_requests"/>
+    <activity
+        android:id="@+id/nav_policy"
+        android:name="com.example.qatramvvm.PolicyActivity"
+        android:label="@string/policy"
+        tools:layout="@layout/activity_policy"/>
+
+</navigation>
